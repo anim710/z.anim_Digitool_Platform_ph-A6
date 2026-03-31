@@ -6,15 +6,14 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
-              <img src="/logo.png" alt="AI Hub Logo" className="h-10 w-auto" />
+              {/* <img src="/logo.png" alt="AI Hub Logo" className="h-10 w-auto" /> */}
               <h2 className="text-3xl font-bold tracking-tighter text-white">
-                AI Hub
+                DigiTools
               </h2>
             </div>
 
             <p className="text-zinc-400 text-lg max-w-md">
-              One subscription. Access to all frontier AI models in a single
-              powerful platform.
+              Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
             </p>
 
             {/* <div className="mt-8 flex gap-6 text-2xl text-zinc-500">

@@ -29,7 +29,7 @@ const NavBar = () => {
       <div className="navbar-end gap-5">
         <FontAwesomeIcon icon="fa-solid fa-cart-arrow-down" />
         <a className="text-gray-700 font-medium cursor-pointer">Login</a>
-        <a className="btn bg-red-500 rounded-full text-white">Get Started</a>
+        <a className="btn bg-purple-600 rounded-full text-white px-5">Get Started</a>
       </div>
     </div>
   );
