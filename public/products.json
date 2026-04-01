@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeForge AI",
+    "description": "Create professional resumes in minutes with AI\nTailored for tech, marketing, and finance roles",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "AI keyword matching", "Export to PDF & Word"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Notionify",
+    "description": "Turn any webpage into a beautiful Notion page\nOne-click save with full formatting preserved",
+    "price": 0,
+    "period": "one-time",
+    "tag": "free",
+    "tagType": "new",
+    "features": ["Unlimited saves", "AI summarization", "Dark mode support", "Offline access"],
+    "icon": "📝"
+  },
+  {
+    "id": 3,
+    "name": "PromptMaster Pro",
+    "description": "Master AI prompting with 500+ expert templates\nInstantly improve ChatGPT, Claude & Grok outputs",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["500+ prompt templates", "Prompt analyzer", "Category library", "Community prompts"],
+    "icon": "✨"
+  },
+  {
+    "id": 4,
+    "name": "LogoCraft AI",
+    "description": "Generate stunning logos in seconds\nProfessional designs for startups and brands",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Unlimited generations", "Vector export", "Brand kit", "Social media kit"],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "EmailFlow AI",
+    "description": "Write high-converting cold emails instantly\nPersonalized sequences that get replies",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI email writer", "A/B testing", "Follow-up sequences", "Spam score checker"],
+    "icon": "📧"
+  },
+  {
+    "id": 6,
+    "name": "CodeReview AI",
+    "description": "Instant AI code reviews & suggestions\nSupports JavaScript, Python, Java & more",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Real-time analysis", "Security checks", "Performance optimization", "Refactoring suggestions"],
+    "icon": "💻"
+  },
+  {
+    "id": 7,
+    "name": "SocialPost AI",
+    "description": "Create viral social media content in one click\nPerfect for Instagram, LinkedIn & Twitter",
+    "price": 8,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Caption generator", "Hashtag optimizer", "Image ideas", "Trend analysis"],
+    "icon": "📱"
+  },
+  {
+    "id": 8,
+    "name": "MindMap AI",
+    "description": "Turn your ideas into beautiful mind maps instantly\nAI-powered brainstorming tool",
+    "price": 0,
+    "period": "one-time",
+    "tag": "free",
+    "tagType": "new",
+    "features": ["Unlimited mind maps", "AI suggestions", "Export to PNG & PDF", "Real-time collaboration"],
+    "icon": "🧠"
+  }
+]

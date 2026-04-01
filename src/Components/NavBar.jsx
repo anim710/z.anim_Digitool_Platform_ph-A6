@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FaShoppingCart } from "react-icons/fa";
 const NavBar = () => {
   return (
     <div className="navbar">
@@ -28,6 +29,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end gap-5">
         <FontAwesomeIcon icon="fa-solid fa-cart-arrow-down" />
+        
         <a className="text-gray-700 font-medium cursor-pointer">Login</a>
         <a className="btn bg-purple-600 rounded-full text-white px-5">Get Started</a>
       </div>
