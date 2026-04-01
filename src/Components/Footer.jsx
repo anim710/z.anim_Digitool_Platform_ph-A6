@@ -1,5 +1,8 @@
 import React from 'react';
 // import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = () => {
   return (
@@ -44,20 +47,14 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div>
+          <div>
             <h3 className="text-lg font-semibold mb-4">Social Links</h3>
             <div className="flex gap-4">
-              <a href="#" className="bg-white text-[#111827] p-2 rounded-full flex items-center justify-center">
-                <FaInstagram size={20} />
-              </a>
-              <a href="#" className="bg-white text-[#111827] p-2 rounded-full flex items-center justify-center">
-                <FaFacebook size={20} />
-              </a>
-              <a href="#" className="bg-white text-[#111827] p-2 rounded-full flex items-center justify-center">
-                <FaTwitter size={20} />
-              </a>
+              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={faXTwitter} />
             </div>
-          </div> */}
+          </div>
 
         </div>
 

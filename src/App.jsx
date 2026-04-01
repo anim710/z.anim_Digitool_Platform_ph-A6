@@ -33,7 +33,7 @@ function App() {
             setShowCart={setShowCart}
           />
         ) : (
-          <Cart carts={carts} setCarts={setCarts} />
+          <Cart carts={carts} setCarts={setCarts} setShowCart={setShowCart} />
         )}
       </Suspense>
 

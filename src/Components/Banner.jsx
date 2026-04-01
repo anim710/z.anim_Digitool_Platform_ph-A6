@@ -1,4 +1,6 @@
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 import BannerImage from "../assets/banner.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Banner = () => {
   return (
@@ -39,7 +41,7 @@ Explore Products
               Explore Products
             </button>
             <button className="flex items-center gap-2 border border-gray-300 hover:border-purple-400 transition-all px-6 py-3 rounded-full font-medium text-gray-700">
-              {/* <Play className="w-4 h-4 fill-gray-700" /> */}
+              <FontAwesomeIcon icon={faPlay} />
               Watch Demo
             </button>
           </div>
