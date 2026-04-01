@@ -57,13 +57,17 @@ const ProductCard = ({ product, carts, setCarts }) => {
       </ul>
 
       {/* Button */}
-      <button
-        onClick={handleAddToCart}
-        disabled={isBought}
-        className="w-full py-3 rounded-full bg-purple-600 text-white font-semibold hover:bg-purple-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed mt-auto"
-      >
-        {isBought ? "Added" : "Buy Now"}
-      </button>
+     <button
+  onClick={handleAddToCart}
+  disabled={isBought}
+  className={`w-full py-3 rounded-full text-white font-semibold transition-all mt-auto 
+    ${isBought 
+      ? "bg-green-600 cursor-not-allowed opacity-50" 
+      : "bg-purple-600 hover:bg-purple-700"
+    }`}
+>
+  {isBought ? "Added to Cart!" : "Buy Now"}
+</button>
 
     </div>
   );
