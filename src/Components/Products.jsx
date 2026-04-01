@@ -1,7 +1,7 @@
 import { use } from "react";
 import ProductCard from "./ProductCard";
 
-const Products = ({ productPromise, carts, setCarts, setShowCart }) => {
+const Products = ({ productPromise, carts, setCarts, showCart, setShowCart }) => {
   const products = use(productPromise);
 
   return (
@@ -19,30 +19,36 @@ const Products = ({ productPromise, carts, setCarts, setShowCart }) => {
         <div className="flex justify-center gap-4 mt-6">
           <button
             onClick={() => setShowCart(false)}
-            className="px-6 py-2 rounded-full font-semibold text-gray-600"
+            className={`px-6 py-2 rounded-full font-semibold transition-all ${
+              !showCart ? "bg-purple-600 text-white" : "text-gray-600"
+            }`}
           >
             Products
           </button>
           <button
             onClick={() => setShowCart(true)}
-            className="px-6 py-2 rounded-full font-semibold bg-purple-600 text-white"
+            className={`px-6 py-2 rounded-full font-semibold transition-all ${
+              showCart ? "bg-purple-600 text-white" : "text-gray-600"
+            }`}
           >
             Cart ({carts.length})
           </button>
         </div>
       </div>
 
-      {/* Products Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            carts={carts}
-            setCarts={setCarts}
-          />
-        ))}
-      </div>
+      {/* Products Grid — always visible */}
+      {!showCart && (
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {products.map((product) => (
+            <ProductCard
+              key={product.id}
+              product={product}
+              carts={carts}
+              setCarts={setCarts}
+            />
+          ))}
+        </div>
+      )}
 
     </div>
   );

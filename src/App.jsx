@@ -19,21 +19,26 @@ function App() {
 
   return (
     <>
-        <ToastContainer />
-      <NavBar carts={carts}/>
+      <ToastContainer />
+      <NavBar carts={carts} />
       <Banner />
       <Rating />
 
       <Suspense fallback={<p className="text-center py-20">Loading...</p>}>
-        {!showCart ? (
-          <Products
-            productPromise={productPromise}
+        <Products
+          productPromise={productPromise}
+          carts={carts}
+          setCarts={setCarts}
+          showCart={showCart}
+          setShowCart={setShowCart}
+        />
+        {showCart && (
+          <Cart
             carts={carts}
             setCarts={setCarts}
+            showCart={showCart}
             setShowCart={setShowCart}
           />
-        ) : (
-          <Cart carts={carts} setCarts={setCarts} setShowCart={setShowCart} />
         )}
       </Suspense>
 
