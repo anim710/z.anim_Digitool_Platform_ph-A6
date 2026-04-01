@@ -1,4 +1,6 @@
 import { Suspense, useState } from 'react'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import NavBar from './Components/NavBar.jsx'
 import Banner from './Components/Banner.jsx'
 import Footer from './Components/Footer.jsx'
@@ -17,7 +19,8 @@ function App() {
 
   return (
     <>
-      <NavBar />
+        <ToastContainer />
+      <NavBar carts={carts}/>
       <Banner />
       <Rating />
 

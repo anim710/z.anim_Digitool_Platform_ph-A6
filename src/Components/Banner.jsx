@@ -7,7 +7,13 @@ const Banner = () => {
         {/* Left Content */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 bg-purple-100 border border-purple-300 text-purple-600 text-sm font-medium px-5 py-2 rounded-full">
-            ✨ New: AI-Powered Tools Available
+           <div class="w-4 h-4 rounded-full bg-purple-500/20 flex items-center justify-center">
+             <div class="w-3 h-3 rounded-full bg-purple-500/45 flex items-center justify-center">
+               <div class="w-1.5 h-1.5 rounded-full bg-purple-500">
+               </div>
+             </div>
+          </div>
+             New: AI-Powered Tools Available
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-gray-900">
