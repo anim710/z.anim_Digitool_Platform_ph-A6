@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
+// import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4">Social Links</h3>
             <div className="flex gap-4">
               <a href="#" className="bg-white text-[#111827] p-2 rounded-full flex items-center justify-center">
@@ -57,7 +57,7 @@ const Footer = () => {
                 <FaTwitter size={20} />
               </a>
             </div>
-          </div>
+          </div> */}
 
         </div>
 
